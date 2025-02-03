@@ -1,0 +1,11 @@
+.backGround{
+
+    background-color: darkcyan;
+}
+
+.verSpan {
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black; /* Adicionei "solid" para que a borda seja visível */
+}
+
