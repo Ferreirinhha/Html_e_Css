@@ -1,11 +1,37 @@
-.backGround{
-
-    background-color: darkcyan;
+.Historia{
+    border: 1px solid black;
 }
 
-.verSpan {
-    display: inline-block;
-    background-color: rgb(255, 0, 0);
-    border: 1px solid black; /* Adicionei "solid" para que a borda seja visível */
+.Builds{
+    border: 1px solid black;
 }
 
+.Runas{
+    border: 1px  solid black;
+}
+
+.Couters{
+    border: 1px  solid black;
+}
+
+.verificar_borda{
+    border:5px solid red;
+}
+
+.Container{
+    display: flex; /*Permite posicionar elementos lado a lado*/
+    align-items: center; /* Alinha o texto e a imagem verticalmente */
+    gap: 10px;
+}
+
+.Container_Builds{
+    margin: 10px 0 10px 10px;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.Itens{
+    width: 50px;
+    border-radius: 10px;
+}
