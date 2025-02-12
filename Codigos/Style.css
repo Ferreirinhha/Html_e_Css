@@ -1,27 +1,86 @@
-.Historia{
-    border: 1px solid black;
+/*Formatação Global*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+table{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
 }
 
-.Builds{
-    border: 1px solid black;
+th, td{
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+body{
+    background-color: #005527;
 }
 
-.Runas{
-    border: 1px  solid black;
+a{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+
 }
 
-.Couters{
-    border: 1px  solid black;
+a:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 3px;
 }
 
-.verificar_borda{
-    border:5px solid red;
+p{
+    font-size: 18px;
 }
 
-.Container{
+/*Formatação Classes*/
+
+.Menu, .Barra_de_Pesquisa{
+    background-color: blue;
+    text-align: center;
+    padding: 15px;
+}
+
+.Search{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Search::placeholder{
+    padding-left: 10px;
+}
+
+.Titulo_Personagem{
+    border: #005527 solid 4px;
+    border-radius: 10px;
+    background-color: #038554;
     display: flex; /*Permite posicionar elementos lado a lado*/
     align-items: center; /* Alinha o texto e a imagem verticalmente */
+    justify-content: center;
     gap: 10px;
+}
+
+.Titulos, .Titulos_Machups{
+    display: flex;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    gap: 10px; 
+}
+
+
+
+.Conteineres{
+    background-color: #68ddbd;
+    margin: 0px 0px 10px 0;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
 }
 
 .Container_Builds{
@@ -31,7 +90,33 @@
     gap: 10px;
 }
 
+.Coutainer_Historia{
+    background-color: #68ddbd;
+    border-radius: 5px;
+    width: 1200px;
+    margin: 5px auto;
+
+}
+
+.Historia{
+    padding: 30px;
+}
+
 .Itens{
     width: 50px;
     border-radius: 10px;
+}
+
+.Runas{
+    border-radius: 7px;
+}
+
+.Champions{
+    border-radius: 7px;
+}
+
+.Centro{
+    width: 50%;
+    margin: 0px auto;
+    background-color:#005527;
 }
