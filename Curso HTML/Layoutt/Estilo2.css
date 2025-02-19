@@ -1,0 +1,70 @@
+/*Layout Fixo*/ /* Layout liquido é quando o conteúdo se ajusta com o tamanho da tela, você usa a % ao invés dos px -> pixels */
+#Container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+#Logo{
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    line-height: 100px;
+}
+
+#Navegacao{
+    width: 200px;
+    float: left;
+    background-color: gainsboro;
+    border-top: 4px solid white;
+
+}
+
+#Navegacao ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#Navegacao a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.3em;
+}
+
+#Navegacao a:hover{
+    color: black;
+    background-color: darkgrey;
+}
+
+#Conteudo{
+    width: 730px;
+    float: right;
+    margin: 0 auto;
+    border-top: 4px solid white;
+}
+
+#Conteudo_Principal{
+    width: 410px;
+    float: left;
+
+}
+
+#Conteudo_Secundario{
+    width: 300px;
+    float: right;
+    background-color: gainsboro;
+}
+
+#Conteudo_Secundario h2,
+#Conteudo_Secundario p{
+    padding: 0 20px;
+}
+
+#Rodape{
+    text-align: center;
+    clear: both;
+    background-color: darkgrey;
+    height: 30px;
+}

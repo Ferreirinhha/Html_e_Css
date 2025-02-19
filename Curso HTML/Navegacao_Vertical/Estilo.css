@@ -1,0 +1,97 @@
+/*Navegaçao Vertical*/
+/*
+ul{
+    list-style-type: none; /*Tira os Marcadores da lista
+    margin: 0;
+    padding: 0;
+}
+ul a{
+
+    width: 200px;
+    height: 40px;
+    display: block; /*Transforma o link em block para ficar do tamanho que desejarmos
+    color: black;
+    text-decoration: none; /*Tira o sublinhado do link
+    text-indent: 40px; /*Identa as linhas
+    line-height: 40px; /*Define o espaçamento entre as linhas
+    background: url(Imagens/menu.png) no-repeat;
+}
+
+a:hover, .selecionado a{
+    background-position: right bottom;
+}
+*/
+
+/*Barra de Navegação Horizontal*/
+
+/*
+ul{
+    width: 750px;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background:#159cb0 url(Imagens/fundo-horizontal.png) repeat-x;
+
+}
+
+ul li{
+    float:left;
+
+}
+
+ul a{
+    text-decoration:none;
+    padding: 0 2em;
+    line-height: 2em;
+    display: block ;
+    background: url(Imagens/divisor.png) repeat-y left top;
+}
+
+a:hover, .selecionado a{
+    background: #44cade;
+}
+
+ul .primeiro a{
+    background: none;
+}
+*/
+
+
+/*Navegaão com Abas*/
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    float: left;
+    background: url(Imagens/aba-direita.png) no-repeat top right;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    padding: 0 2em;
+    line-height: 2em;
+    background: url(Imagens/aba-esquerda.png) no-repeat top left;
+}
+
+ul a:hover{
+    color: white;
+}
+
+ul .primeiro a{
+    background: url(Imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+
+ul .primeiro{
+    background: url(Imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+
+
+

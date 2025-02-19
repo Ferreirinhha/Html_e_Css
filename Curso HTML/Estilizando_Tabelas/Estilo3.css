@@ -1,0 +1,28 @@
+/*Esstilizando tabelas*/
+
+table{
+    width: 600px;
+    border-collapse: collapse; /*Deixa as bordas coladas*/
+
+}
+
+th, td{
+    padding: 8px;
+}
+
+th{
+    text-transform: uppercase; /*Deixa todas as letras em Maiusculo*/
+    border-top: 1px solid gray;
+    border-bottom: 1px solid darkgray;
+    text-align: left;
+    letter-spacing: 0.1em; /*Espaçamento das letras*/
+}
+
+tr:hover{
+    background-color: aqua;
+}
+
+.canto{
+    text-align: right;
+}
+
