@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../Imagens/Site_Noticias/fundo.png) repeat-x;
+}
+
+ul {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*Navegação do Topo*/
+
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2em;
+    background: url(../Imagens/Site_Noticias/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none ;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #Navegacao a#home,
+body.brasil #Navegacao a#brasil{
+    color: fff;
+    background: #de003e;
+    cursor: text;
+}
+
+
+
+
+#Countainer{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 160px;
+    background: url(../Imagens/Site_Noticias/detalhe-topo.png) no-repeat right top;
+    padding: 10px;
+}
+
+#Logo{
+    height: 66px;
+    background: url(../Imagens/Site_Noticias/logo.png) no-repeat left;
+    text-indent: -3000px;
+}
