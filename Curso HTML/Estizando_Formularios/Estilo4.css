@@ -32,7 +32,10 @@ body{
     width: 500px;
     height: 300px;
     margin: 100px auto;
+    /*O ultimo número significa a transparencia do objeto*/
     background: rgb(255, 255, 255, 0.2);
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
     border-radius: 5px;
     text-align: center;
 }
@@ -72,6 +75,6 @@ input.logar{
     border: 2px solid chocolate;
     border-radius: 5px;
 
-
+    /*O To bottom indica que vai de cima para baixo o gradient*/
     background: linear-gradient(to bottom, #faa600, #f68a00);
 }
