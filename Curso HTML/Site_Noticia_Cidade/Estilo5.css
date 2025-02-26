@@ -51,7 +51,46 @@ body.brasil #Navegacao a#brasil{
     cursor: text;
 }
 
+/*Conteudo*/
 
+#conteudo{
+    margin-top: 60px;
+    width: 750px;
+}
+
+.primario{
+    background-color: rgb(128, 0, 0);
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+}
+
+.secundario{
+    background-color: rgb(2, 0, 128);
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 15px;
+}
+
+.lateral{
+    background-color: green;
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+}
+
+/*Rodapé*/
+
+#countainer_rodape{
+    background-color: blue;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    color: white;
+    margin: 0 auto;
+}
 
 
 #Countainer{
