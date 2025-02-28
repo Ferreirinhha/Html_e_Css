@@ -8,13 +8,19 @@ body{
 }
 
 ul {
-    border: 1px solid red;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-/*Navegação do Topo*/
+
+/*Topo*/
+
+#topo{
+    height: 160px;
+    background: url(../Imagens/Site_Noticias/detalhe-topo.png) no-repeat right top;
+    padding: 10px;
+}
 
 #topo ul{
     background: #b10333;
@@ -51,58 +57,125 @@ body.brasil #Navegacao a#brasil{
     cursor: text;
 }
 
+
 /*Conteudo*/
 
 #conteudo{
+    background-color: #f5f5f5;
     margin-top: 60px;
-    width: 750px;
+
 }
 
-.primario{
-    background-color: rgb(128, 0, 0);
-    float: left;
-    width: 270px;
-    margin: 0 0 20px 195px;
-}
-
-.secundario{
-    background-color: rgb(2, 0, 128);
-    float: left;
-    width: 270px;
-    margin: 0 0 20px 15px;
-}
-
-.lateral{
-    background-color: green;
-    float: left;
+#lateral{
     width: 180px;
+    float: left;
     margin: 0 0 20px -750px;
 }
 
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/*Caixa*/
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: url(../Imagens/Site_Noticias/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    padding: 5px;
+    color:  white;
+}
+
+.caixa-conteudo{
+    background-color: white;
+    padding: 5px;
+    margin-top: 5ppx;
+}
+
+/*Navegação Lateral*/
+
+#lateral ul a{
+    font-size: 0.9em;
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 3px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+#lateral a:hover{
+    color: gray;
+    background: url(../Imagens/Site_Noticias/marcador.png) no-repeat left center;
+    padding-left: 20px;
+
+}
+
+/*Formatando Formulário*/
+
+label{
+    display: block;
+    cursor: pointer; /*Deixa o nome como se fosse clicavel*/
+}
+
+input {
+    padding: 5px;
+    font-size: 0.9em;
+    width: 125px;
+}
+
+input.submit{ /*O imput que tiver a classe submit vai receber as alterções*/
+    margin-top: 3px;
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+
 /*Rodapé*/
 
-#countainer_rodape{
-    background-color: blue;
+#container-rodape{
+    background: #294c71;
     padding: 20px;
 }
 
 #rodape{
     width: 750px;
-    color: white;
     margin: 0 auto;
+    color: #fff;
 }
 
+/*Container*/
 
-#Countainer{
+#container{
     width: 750px;
     margin: 0 auto;
 }
 
-#topo{
-    height: 160px;
-    background: url(../Imagens/Site_Noticias/detalhe-topo.png) no-repeat right top;
-    padding: 10px;
-}
+/*Logo*/
 
 #Logo{
     height: 66px;
