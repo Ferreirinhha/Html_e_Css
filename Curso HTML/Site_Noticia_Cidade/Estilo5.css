@@ -93,12 +93,44 @@ body.brasil #Navegacao a#brasil{
     margin: 0 0 20px 15px;
 }
 
+/*Formatando paragrafos*/
+
+.destaque p{
+    line-height: 1.1;
+}
+
+.destaque a{
+    color: red;
+}
+
+/*Formatando Cabeçalhos*/
+
+.destaque h3{
+    font-size: 0.8em;
+    padding: 3px;
+    text-transform: uppercase;
+    background-color: red;
+    display: inline;
+    color: white;
+}
+
+/*Formantando imagens*/
+
+.destaque img{
+    width: 100%;
+    margin-top: 5px;
+    border: 2px solid darkgrey;
+}
+
+
+
 /*Caixa*/
 
 .caixa{
     margin: 10px 0;
     padding: 5px;
     background: url(../Imagens/Site_Noticias/fundo-caixa.png);
+    margin-top: 10px;
 }
 
 h2{
@@ -110,8 +142,8 @@ h2{
 
 .caixa-conteudo{
     background-color: white;
-    padding: 5px;
-    margin-top: 5ppx;
+    padding: 5px 9px;
+    margin-top: 5px;
 }
 
 /*Navegação Lateral*/
@@ -153,6 +185,41 @@ input.submit{ /*O imput que tiver a classe submit vai receber as alterções*/
     background-color: #b10333;
     border: 2px solid #870529;
 }
+
+/*Formatando lista de Notícias*/
+
+#lista-noticia li {
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    margin: 2px 0;
+}
+
+#lista-noticia li a img{
+    float: left;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#lista-noticia li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#lista-noticia li a h3{
+    color: cadetblue;
+    font-size: 1em;
+}
+
+#lista-noticia li a p{
+    margin-top: 4px;
+    font-size: 0.9em;
+    color: black;
+}
+
+#lista-noticia li:hover{
+    background-color: #ccc;
+}
+
 
 
 /*Rodapé*/
