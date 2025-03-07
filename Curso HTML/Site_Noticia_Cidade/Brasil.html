@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="Estilo5.css">
     <title>Notícia Cidade</title>
 </head>
-<body id="uma_coluna" class="brasil">
-    <div id="Countainer">
-        <div id="topo">
+<body id="duas-colunas" class="brasil">
+    <div id="container"><!--Inicio Container-->
+
+        <div id="topo"><!--Inicio Topo-->
             <h1 id="Logo">Noticia Cidade</h1>
             <div id="Navegacao">
                 <ul>
@@ -17,21 +18,58 @@
                     <li><a id="internacional" href="">Internacional</a></li>
                     <li><a id="sobre" href="">Sobre</a></li>
                     <li><a id="contato" href="">Contato</a></li>
-                    <li><a id="fotos" href="">Fotos</a></li>
+                    <li><a id="fotos" href="Fotos.html">Fotos</a></li>
                 </ul>
             </div>
         </div><!--Fim Topo-->
-        <div id="conteudo">
-            <div class="primario">Primario</div>
-        </div>
-    </div><!--Fim Countainer-->
-    <div id="countainer_rodape">
+        <div id="conteudo"><!--Inicio Conteudo-->
+            <div id="primario"> <!--Inicio Conteudo Primário-->
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova Legislação</h3>
+                        <img src="../Imagens/Site_Noticias/taxi.jpg" alt="">
+                        <p>Um taxista inovou ao oferecer Wi-Fi, água e balas para os passageiros, tornando as viagens mais confortáveis. 
+                            A iniciativa tem recebido elogios e fidelizado clientes. O serviço diferenciado destaca o profissional na cidade.</p>
+                        <a href="">Ler mais!</a>
+                    </div>
+                </div>
+            </div><!--Fim Conteudo Primário-->
+            <div id="lateral"> <!--Inicio Barra de pesquisa Lateral-->
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">Daniel Ferreirinha</a></li>
+                            <li><a href="">Daniel Ferreirinha</a></li>
+                            <li><a href="">Daniel Ferreirinha</a></li>
+                            <li><a href="">Daniel Ferreirinha</a></li>
+                            <li><a href="">Daniel Ferreirinha</a></li>
+                            <li><a href="">Daniel Ferreirinha</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="Email">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!--Fim Barra de pesquisa Lateral-->
+        </div><!--Fim Conteudo-->
+    </div><!--Fim Container-->
+    <div id="container-rodape" style="clear: both;">
         <div id="rodape">
-            Copyright 2000-2008 Notícia Cidade
+            rodape
         </div>
     </div>
-       
-    </div>
-    
 </body>
 </html>

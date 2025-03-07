@@ -51,7 +51,8 @@ ul {
 }
 
 body.home #Navegacao a#home,
-body.brasil #Navegacao a#brasil{
+body.brasil #Navegacao a#brasil,
+body.fotos #Navegacao a#fotos{
     color: fff;
     background: #de003e;
     cursor: text;
