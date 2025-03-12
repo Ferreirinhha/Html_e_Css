@@ -9,23 +9,32 @@ body{
 }
 
 #container{
-    border: 1px solid red;
+    max-width: 1180px;
 
 }
 
 #topo{
+    background: #dbcd87;
+    position: relative;
     height: 15.4em;
     min-height: 250px;
 }
 
-#area-logo{
-    background-color: blue;
+#area-menu{
+    background: url(../Imagens/Chale_Hotel/topo-imagem-lateral.png) no-repeat;
+    position: absolute;
     height: 250px;
     width: 450px;
+    top: 0;
+    right: 0;
 }
 
-#area-menu{
-    background-color: red;
+#area-logo{
+    background: url(../Imagens/Chale_Hotel/topo-imagem-principal.png) no-repeat;
+    position: absolute;
     height: 250px;
     width: 100%;
+    top: 0;
+    left: 0;
+
 }
