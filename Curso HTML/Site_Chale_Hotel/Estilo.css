@@ -8,17 +8,42 @@ body{
     background: url(../Imagens/Chale_Hotel/bg.png);
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
 #container{
     max-width: 1180px;
     margin: 0 auto;
+    background: url(../Imagens/Chale_Hotel/bg-container.png) top center repeat-y;
 
 }
+
+/*Topo*/
 
 #topo{
     background: #dbcd87;
     position: relative;
     height: 15.4em;
     min-height: 250px;
+}
+
+#area-logo{
+    background: url(../Imagens/Chale_Hotel/topo-imagem-principal.png) no-repeat;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-indent: -1000px;
+}
+
+#area-logo img{
+    margin-left: 12px;
 }
 
 #area-menu{
@@ -56,10 +81,6 @@ a.reserva{
     background: #a29750;
 }
 
-a{
-    text-decoration: none;
-}
-
 #menu{
     margin-top: 15px;
 }
@@ -69,6 +90,8 @@ a{
     height: 164px;
     float: right;
 }
+
+/*Navegação Topo*/
 
 ul#navegacao{
     float: left;
@@ -88,16 +111,73 @@ ul#navegacao a:hover{
     background: #fdf6be;
 }
 
-#area-logo{
-    background: url(../Imagens/Chale_Hotel/topo-imagem-principal.png) no-repeat;
-    position: absolute;
-    height: 250px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    text-indent: -1000px;
+/*Conteudo*/
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 0;
 }
 
-#area-logo img{
-    margin-left: 12px;
+#area-principal{
+    background: url(../Imagens/Chale_Hotel/bg-area-principal.png) top left repeat-x;
+    float: left;
+    width: 50%;
+}
+
+#area-lateral{
+    background: url(../Imagens/Chale_Hotel/bg-area-lateral.png) top right repeat-x;
+    float: right;
+    width: 50%;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape{
+    clear: both;
+}
+
+/*Formatando*/
+
+h3{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+p{
+    text-indent: 8px;
+    margin-bottom: 10px;
+}
+
+/*Formatando Lista*/
+
+#beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    height: 5.5em;
+}
+
+#beneficios li a img{
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li a p{
+    font-size: 0.9em;
+    text-indent: 0;
+    color: black;
+    
+}
+
+#beneficios li a h3{
+    padding-right: 30px;
+    color: #615b2d;
+    background: url(../Imagens/Chale_Hotel/ornamento.png) no-repeat right center;
+}
+
+#beneficios li:hover{
+    background-color: #f3f6d3;
 }
