@@ -1,0 +1,17 @@
+.caixa{
+    background: green;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    /*background: url("../Imagens/camera.png")*/
+    /*background: linear-gradient(78deg, yellow, blue);*/ /*Dizer em quantos graus vai começar o degrade*/
+    /*background: linear-gradient(to left, yellow, blue, purple);*/ /*Posso adicionar mais cores no degrade*/
+    /*background: linear-gradient(to left, yellow, blue);*/ /*dizer que que lado vai começar o degrade*/
+    /*background: linear-gradient(yellow, blue);*/ /*Padrão*/
+
+    background: radial-gradient(yellow, blue); /*Outro tipo de gradiente*/
+}
+
+.caixa h1{
+    background: rgba(255, 255, 255, 0.5); /*Serve para esceher a cor RGB + a transparencia que vai de 1 ( sem ) até 0 (com transparencia )*/
+}

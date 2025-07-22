@@ -1,0 +1,13 @@
+.caixa{
+    background: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.caixa:hover {
+    width: 400px;
+    background: yellow;
+    transition: width 3s, background 3s; /*Tambem podemos usar o preficço para outros navegadores*/
+    transition: all 3s;
+}

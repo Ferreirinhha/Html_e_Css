@@ -1,0 +1,13 @@
+.caixa{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: green;
+    box-shadow: 20px 20px 5px 10px black; /*O quarto valor quer dizer o espalhamento da sombra*/
+}
+
+.caixa h1{
+    color: white;
+    text-shadow: 20px 20px 5px black; /* Aplica sombra em texto (mov horizontar, mov vertical, borrado, cor)*/
+}

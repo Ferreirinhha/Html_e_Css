@@ -1,0 +1,41 @@
+@keyframes animation-caixa{ /*Dizer que vamos usar uma animação*/
+    from{ /*Formatação inicial*/
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    } 
+    to{ /*Formatação final*/
+        background: gold;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+
+    } 
+}
+ /*Se quisermos usar em navegadores especificos, temos que usar preficços
+ 
+ @-webkit-keyframes --> para Chrome
+ @-o-keyframes --> para Opera
+ @-moz-keyframes --> para Mozila
+ 
+ */
+
+
+.caixa{
+    background: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+    /*animation-name: animation-caixa; /*Animação que será ultilizada*/
+    /*animation-duration: 5s; /*Tempo da animação*/
+    /*animation-delay: 3s; /*Tempo de daley quando a página é recarregada*/
+    /*animation-iteration-count: 2; /*De quanto tem quanto tempo ela vai fazer o loop*/
+    /*animation-direction: alternate; /*Faz a animação e volta de tras pra frente*/
+    /*animation-direction: reverse; /*Faz a animação no reverso*/
+
+    /*Ou fazemos assim*/
+
+    animation: animation-caixa 5s 3s 5 alternate; /*Tudo em uma linha só*/
+}
