@@ -1,0 +1,106 @@
+body{
+    background: radial-gradient(circle, #2c3e50, #000);
+    min-height: 100vh;  /*100vh Siginifica que vai ocupar 100% da altura do navegador*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flower{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin:100px auto;
+
+}
+
+#center{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    background: radial-gradient(yellow,yellow, black);
+    border-radius: 50%;
+    top: 60px;
+    left: 80px;
+    animation: pulsante 1s linear infinite ;
+
+}
+
+.petala {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 40px;
+    height: 80px;
+    background: linear-gradient(#ff9ece, #FF1493);
+    border-radius: 20px 20px 0 0;
+    animation: giro 5s 1s linear  infinite;
+    transform-origin: bottom center;
+}
+
+.petala1 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 40px;
+    height: 80px;
+    background: linear-gradient(#ff9ece, #FF1493);
+    border-radius: 20px 20px 0 0;
+    animation: giro 5s 2s linear  infinite;
+    transform-origin: bottom center;
+}
+
+
+.petala2 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 40px;
+    height: 80px;
+    background: linear-gradient(#ff9ece, #FF1493);
+    border-radius: 20px 20px 0 0;
+    animation: giro 5s 3s linear  infinite;
+    transform-origin: bottom center;
+}
+
+
+.petala3 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 40px;
+    height: 80px;
+    background: linear-gradient(#ff9ece, #FF1493);
+    border-radius: 20px 20px 0 0;
+    animation: giro 5s 4s linear  infinite;
+    transform-origin: bottom center;
+}
+
+.petala4 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 40px;
+    height: 80px;
+    background: linear-gradient(#ff9ece, #FF1493);
+    border-radius: 20px 20px 0 0;
+    animation: giro 5s 5s linear  infinite;
+    transform-origin: bottom center;
+}
+
+
+
+@keyframes giro{
+    0%{ transform: rotate(0deg) }
+
+    100%{ transform: rotate(360deg);}
+}
+
+@keyframes pulsante{
+    0% { transform: scale(1);}
+    50% { transform: scale(1.1);}
+    100% { transform: scale(1);}
+}
+

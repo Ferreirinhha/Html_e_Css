@@ -1,0 +1,27 @@
+
+
+header{
+    background-color: burlywood;
+}
+
+nav{
+    background-color: aqua;
+}
+
+article{
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+section{
+    border: 1px solid red;
+    margin: 5px;
+}
+
+aside{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: gray;
+}

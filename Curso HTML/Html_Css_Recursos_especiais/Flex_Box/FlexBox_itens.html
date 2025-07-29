@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style type="text/css">
+
+        #conteudo {
+            background-color: gray;
+            height: 400px;
+            display: flex;
+
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            background: white;
+            margin: 10px;
+
+            /*Aumenta o tamanho dos itens proporcional ao tamano da tela quanto maior o número, maior a proporção */
+            flex-grow: 1;
+
+            /*Faz a mesma coisa que o grow mas ele diminui*/
+            flex-shrink: 1;
+
+            flex-basis: auto; /*Ver melhor pois não entendi*/
+
+            /*Auto prefixer --> pesquisar*/
+        }
+        
+
+        /* Define a ordem dos itens, só botar a classe nos items que quer oderenar 
+        .ordem1{
+            order: 1;
+        }
+        
+        .ordem2{
+            order: 2;
+        }
+        
+        .ordem3{
+            order: 3;
+        }
+        
+        .ordem4{
+            order: 4;
+        }
+        */
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Flex Box</h1>
+    <div id="conteudo">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style type="text/css">
+
+        #conteudo {
+            background-color: gray;
+            height: 400px;
+            display: flex;
+
+            /* Valores do Flex: 
+            row / Os itens ficam um do lado do outro, da esquerda para a direita. 
+            row-reverse / Um do lado do outro, da direita para a esquerda.
+            column / Os itens ficam um embaixo do outro, de cima para baixo.
+            column-reserve / Um embaixo do outro, de baixo para cima.
+            */ 
+            flex-direction: row;
+
+            /*nowrap / Os itesns não quebram linha, mesmo que fiquem apertados.
+            wrap / Os itens quebram para a próxima linha se não couberem.
+            wrap-reverse Como wrap, mas a quebra ocorre de baixo para cima (ou da direita para a esquerda, dependendo da direção).
+            */
+            /*Por padrão, todos os itens ficam em uma única linha ou coluna, mesmo que estourem o espaço disponível.*/
+            flex-wrap: nowrap;
+
+            /* flex-start /  Default value. Items are positioned at the beginning of the container
+            flex-end /  Items are positioned at the end of the container
+            center /  Items are positioned in the center of the container
+            space-between / Items will have space between them
+            space-around / Items will have space before, between, and after them
+            */
+            /*A justify-contentpropriedade alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal (horizontalmente).*/
+            justify-content: center;
+
+            /*stretch / center / flex-start / flex-end / baseline*/
+            align-items: center;
+
+
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            background: white;
+            margin: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Flex Box</h1>
+    <div id="conteudo">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+</body>
+</html>
