@@ -15,15 +15,22 @@ header {
     height: 55px;
 }
 
-a:visited, a:active, a:link {
+/*
+    a:visited: Link Visitado 
+    a:link: Link Normal e não visitado
+    a:active: Link quando é clicado
+*/
+a:visited, a:active, a:link { 
     color: #af670a;
-    text-decoration: none;
+    text-decoration: none; /*Tira o sublinhado do link*/
 }
 
+/*a:hover: Quando passamos o mouse por cima*/
 a:hover {
     color: #227115;
 }
 
+/*Todos o Links (a) dentro de #logo serão modificados*/
 #logo a {
     background: url(../../Imagens/Museu_Nacional/logo.png) no-repeat;
     width: 248px;
@@ -32,6 +39,7 @@ a:hover {
     text-indent: -9999px;
 }
 
+/*Todos o h1 dentro de #logo serão modificados*/
 #logo h1 {
     float: left;
 }
@@ -39,7 +47,7 @@ a:hover {
 /*------------------Área Navegação------------------*/
 
 nav ul{
-    list-style: none;
+    list-style: none; /*Tira os marcadores da lista não ordenada (ul)*/
     margin: 20px;
     float: right;
 }
@@ -52,18 +60,18 @@ nav ul li a:link {
     display: block;
     margin-right: 25px;
     padding-bottom: 3px;
-    text-transform: uppercase;
+    text-transform: uppercase; /*Transforma o texto em Uppercase*/
 }
 
 nav ul li a:hover {
-    border-bottom: 1px solid #535858
+    border-bottom: 1px solid #535858 /*Aplica borda só na parte de baixo*/
 }
 
 /*------------------Área Conteúdo------------------*/
 
 .conteudo {
     width: 710px;
-    float: left;
+    float: left; /* Flutua o container para a esquerda*/
 }
 
 aside {
@@ -74,6 +82,7 @@ aside {
 
 /*------------------Área Conteúdo------------------*/
 
+/*Todos os section com o Id = visita serão modificados*/
 section#visita {
     padding: 10px 25px 25px 25px;
 }
@@ -98,7 +107,7 @@ input {
     height: 20px;
     width: 80px;
     border: none;
-    font-size: 1em;
+    font-size: 1em; /*Aumenta o tamanho da font*/
     background-color: #fff;
 }
 
