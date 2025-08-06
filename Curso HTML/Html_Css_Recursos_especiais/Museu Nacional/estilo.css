@@ -91,6 +91,33 @@ section#visita {
     margin-top: 10px;
 }
 
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+
+
+
 h3{
     color: #227115;
     font-size: 1em;
@@ -144,4 +171,17 @@ input.button {
     font-size: 1.2em;
     color: white;
     background-color: #535858;
+}
+
+/*------------------Rodapé------------------*/
+
+
+footer{
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../../Imagens/Museu_Nacional/fundo-rodape.png) no-repeat center top;
+}
+
+footer a{
+    padding: 2px 10px;
 }
