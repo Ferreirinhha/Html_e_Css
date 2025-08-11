@@ -8,28 +8,135 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <style>
-
-      body{
-        background-color: black;
-        color: white;
-        display: flex;
-        justify-content: center;
-      }
-
-      img{
-        height: 100vh;
-        border: 10px solid rgb(255, 0, 111);
-      }
-
-    </style>
-
-    <title>Hello, world!</title>
+    <title>Bootsrap</title>
   </head>
-  <body>
+  <body style="margin-bottom: 200px; padding: 16px;">
+      
+      <p class="font-weight-bold" style="font-size: 2em;"> * Podemos usar classes pré definidas  para objetos *</p>
+      <p style="font-size: 1.3em;">- Classes para títulos (podendo ser usados em outros objetos sem problemas)</p>
+      
+      <h1>Cabeçalho 1</h1>
+      <h2>Cabeçalho 2</h2>
+      <h3>Cabeçalho 3</h3>
+      <h4>Cabeçalho 4</h4>
 
-    <img src="IMG_20250103_191633_174.webp" alt="">
+      <!--Classe h1 usado no h5-->
+      <h5 class="h1">Cabeçalho 5</h5> 
+      <h6>Cabeçalho 6</h6>
+        <br><br>
+
+      <p style="font-size: 1.3em;">- Classes para títulos mas usando a classe display para destacar mais o texto</p>
+
+      <h1 class="display-1">Com Display 1</h1>
+      <h1 class="display-1">Sem Display 1</h1>
+      <h1 class="display-2">Com Display 2</h1>
+      <h1 class="display-3">Com Display 3</h1>
+      <h1 class="display-4">Com Display 4</h1>
+        <br><br>
+
+
+      <p style="font-size: 1.3em;">- Classes para parágrafos usando a classe lead</p>
+
+        
+      <p>Sem Lead: asjknkfsdk ksjd kasjd aksjd kaskjd amsd as daskd kasmd kasdm 
+          ks dk skd m askd dm amsk md ka d amk dmk amsd mka sdd sakmas
+      </p>
+      <p class="lead">Com lead: asjknkfsdk ksjd kasjd aksjd kaskjd amsd as daskd kasmd kasdm 
+          ks dk skd m askd dm amsk md ka d amk dmk amsd mka sdd sakmas
+      </p>
+      <br><br>
+
+
+      <p style="font-size: 1.3em;">- Classes para parágrafos usando a classe text-monospace para padronizar os espaços como se fosse uma máquina de escrever</p>
+
+      <p class="text-monospace">asjknkfsdk ksjd kasjd aksjd kaskjd amsd as daskd kasmd kasdm 
+          ks dk skd m askd dm amsk md ka d amk dmk amsd mka sdd sakmas
+      </p>
+      <br><br>
+
+
+      <p style="font-size: 1.3em;">- Classes para deixar textos em negrito, normal ou italico (font-weight-bold(normal ou italic))</p>
+
+      <p class="font-weight-bold">Negrito</p>
+      <p class="font-weight-normal">Normal</p>
+      <p class="font-italic">Italico</p>
+      <br><br>
+
+
+      <p style="font-size: 1.3em;">- Classes para deixar textos em Maiúsculo, minúsculo ou só as iniciais maiúsculas (text-uppercase(lowcase ou capitalize))</p>
+
+      <p class="text-uppercase"> Maiúscula</p>
+      <p class="text-lowercase"> Minúscula</p>
+      <p class="text-capitalize"> Só a inicial maiúscula</p>
+      <br><br>
+
+
+      <p style="font-size: 1.3em;">- Classes para alinhar textos (text-right(left ou center))</p>
+
+      <p class="text-right"> Direita</p>
+      <p class="text-left"> Esquerda</p>
+      <p class="text-center"> Centro</p>
+      <br><br>
+
+      <p style="font-size: 1.3em;">- Classes para deixar uma citação mais bonita e organizada (blockquote)</p>
+
+      <blockquote class="blockquote text-capitalize">
+        <p>Combloco de citação</p>
+      </blockquote>
+      <p>Sem bloco de citação</p>
+      <br><br>
+
+
+      <p style="font-size: 1.3em;">- Classes para deixar o footer com uma legendar menor e em italico (blockquote-footer)</p>
+      
+      <!--Usado para indicar uma citação em bloco-->
+      <blockquote class="blockquote text-capitalize">
+        <p>ksjddfj fjsdfj sdkf skdf kdf sdfkf k fjsdfjsdf kds f
+          kdjsbadj asdkj sakd aknsd asd ksa  dkaksdoasndjn
+        </p>
+
+        <footer class="blockquote-footer"> por
+          <cite>Daniel Ferreirinha</cite>
+        </footer>
+      </blockquote>
+      <br><br>
+
+      <p style="font-size: 1.3em;">- Classes usada para se o texto for maior que o container ele ficará com reticencias (text-truncate)</p>
+
+      <p class="text-truncate">slndksjfksdj fksdf msd fkd fksdfjdf oasifj kjf dsjd 
+        sjdasd kdj fkdskjdfmdf dkfndfnjsdnfksdnfdskjnkfdnfdn
+        sfjbfdkjbfsdbkfbdkjoisadasdnaslnsalkldsnnkldas
+      </p>
+      <br><br>
+
+      
+      <p style="font-size: 1.3em;">- Classes usada para tirar o marcador da lista (list-unstyled)</p>
+
+      <ul class="list-unstyled">
+        <li>com bjsbd</li>
+        <li>com sdjksd</li>
+        <li>com sdkjsbk</li>
+      </ul>
+
+      <ul>
+        <li>sem bjsbd</li>
+        <li>sem sdjksd</li>
+        <li>sem sdkjsbk</li>
+      </ul>
+
+      <p style="font-size: 1.3em;">- Classes usada para alinhar a lista uma ao lado da outra (list-inline)</p>
+
+      <ul class="list-inline">
+        <li class="list-inline-item">com bjsbd</li>
+        <li class="list-inline-item">com sdjksd</li>
+        <li class="list-inline-item">com sdkjsbk</li>
+      </ul>
+
+      <ul class="list-inline">
+        <li class="list-inline-item">sem bjsbd</li>
+        <li class="list-inline-item">sem sdjksd</li>
+        <li class="list-inline-item">sem sdkjsbk</li>
+      </ul>
 
     <!-- Optional JavaScript; choose one of the two! -->
     
